@@ -1,4 +1,5 @@
 /*
+Difficulty : Medium
 The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 
 P   A   H   N
@@ -40,7 +41,7 @@ var convert = function(s, numRows) {
     let output_arr=[];
     let column=0;
     let s_arr_index=0;
-    let pointer=0;
+    let pointer=0;// used for tracking next insertion index row wise
     let row=0;
     let length=s.length;
     for(var x=0;x<length;x++)//loop through all chars
