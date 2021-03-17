@@ -75,7 +75,7 @@ Constraints:
     converter[10]={'roman':'D' , 'decimal':'500'};
     converter[11]={'roman':'CM' , 'decimal':'900'};
     converter[12]={'roman':'M' , 'decimal':'1000'};
-    // start from largest, subtract from num if result positive do it again,if negative, try //second largest and so on
+    // start from largest, subtract from num if result positive do it again,if negative, try second largest and so on
     var remainder=num;
     var roman="";
     var index=12;
